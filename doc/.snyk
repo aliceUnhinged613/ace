@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:request:20160119':
+    - panino > functional-docs > teacher > request:
+        patched: '2024-09-11T02:08:56.797Z'
+        id: 'npm:request:20160119'
+        path: panino > functional-docs > teacher > request
+  'npm:uglify-js:20151024':
+    - panino > jade > transformers > uglify-js:
+        patched: '2024-09-11T02:08:56.797Z'
+        id: 'npm:uglify-js:20151024'
+        path: panino > jade > transformers > uglify-js
